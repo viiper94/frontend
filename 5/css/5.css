@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 500px;
+	background: url(../img/header_bg.png);
+}
+.logo{
+
+}
+.logo img{
+	display: block;
+	margin: auto;
+	padding-top: 54px;
+}
