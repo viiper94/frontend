@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+body{
+	background-color: #f9f9f9;
+}
+.container{
+	width: 1060px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.logo{
+	padding: 50px 0px 36px 45px;
+}
+.header_menu{
+	width: 965px;
+	height: 40px;
+	margin: auto;
+	background: linear-gradient(to top, #444343, #5e5e5e);
+}
+.header_menu a{
+	display: inline-block;
+	text-decoration: none;
+	color: #e5e5e5;
+	padding: 11px 39px 11px 39px;
+}
+.header_menu a:hover{
+	display: inline-block;
+	padding: 11px 38px 11px 38px;
+	text-decoration: none;
+	color: #e5e5e5;	
+	background: linear-gradient(to top, #2c2c2c, #4a4a4a);
+	border-left: solid #838383 1px;
+	border-right: solid #838383 1px;
+}
+ul{
+	list-style: none;
+}
+.header_menu li{
+	display: inline-block;
+	float: left;
+}
+.main{
+	width: 1060px;
+	margin-top: 40px;
+}
+.sidebar{
+	width: 237px;
+	float: left;
+	margin-left: 46px;
+	border: solid 1px #c8c8c8;
+	border-bottom: 0px;
+}
+.sidebar li{
+	width: 237px;
+	height: 40px;
+	font-size: 12px;
+}
+.sidebar a{
+	display: block;
+	padding: 12px 0px 12px 39px;
+	text-decoration: none;
+	color: #656363;
+	background-color: #fff;
+	border-bottom: solid 1px #c8c8c8;
+	transition: 0.2s;
+}
+.sidebar a:hover{
+	display: block;
+	padding: 12px 0px 12px 50px;
+	text-decoration: none;
+	color: #2c2c2c;
+	background-color: #f9f9f9;
+	border-bottom: solid 1px #c8c8c8;
+	transition: 0.3s;
+}
+.content{
+	width: 726px;
+	float: right;
+}
+.image_block{
+	margin-right: 48px;
+	border: solid 1px #c8c8c8;
+}
+.image_block img{	
+	padding: 46px 0px 41px 88px;
+}
+.article{
+	padding: 34px 48px 59px 24px;
+	font-size: 14px;
+	line-height: 157%
+}
+footer{
+	clear: both;
+	width: 965px;
+	height: 40px;
+	margin: auto;
+	margin-bottom: 50px;
+	background-color: #e1e1e1;
+	font-size: 14px;
+}
+footer li{
+	display: inline-block;
+	padding: 12px 63px 0px 23px;
+}
+footer a{
+	float: left;
+	text-decoration: none;
+	color: #2c2c2c;
+}
+footer a:hover{
+	float: left;
+	text-decoration: underline;
+	color: #2c2c2c;
+}
+.copyright{
+	float: right;
+    margin-top: -18px;
+    margin-right: 29px;
+    font-size: 13px;
+}

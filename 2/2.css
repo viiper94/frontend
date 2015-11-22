@@ -1,0 +1,159 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+body{
+	background-image: url(background.png);
+}
+.container{
+	width: 1000px;
+	margin: auto;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+header{
+	height: 213px;
+}
+.logo{
+	float: left;
+	width: 550px;
+	height: 213px;
+}
+.logo img{
+	margin: 49px 0px 0px 28px;
+}
+.logo span{
+	position: absolute;
+	margin: 146px 0px 0px -212px;
+	font-size: 13px;
+	color: #128aa7;
+}
+.contacts{
+	float: right;
+	padding: 45px 27px 0px 0px;
+}
+.contacts span{
+	display: block;
+	color: #41a1b9;
+	font-size: 12px;
+	line-height: 1.65;
+}
+.contries{
+	float: right;
+	padding: 28px 30px 0px 0px;
+}
+.contries div{
+	display: inline-block;
+	width: 52px;
+	text-align: center;
+}
+.contries div a{
+	font-size: 9px;
+	color: #128aa7;
+}
+.photo{
+	height: 235px;
+}
+.photo img{
+	clear: left;
+	margin: auto;
+	border-top: solid 1px #138aa7;
+	border-bottom: solid 1px #138aa7;
+}
+ul{
+	list-style: none;
+}
+.menu{
+	background-color: #323232;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.menu li{
+	position: relative;
+	display: inline-block;
+	width: 139px;
+	text-align: center;
+	padding: 7px 0;
+	transition: 0.2s;
+}
+.menu li:hover{
+	background-color: #262626;
+	transition: 0.3s;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+}
+.dropdown ul{
+	position: absolute;
+	margin-top: 7px;
+	display: none;
+	left: 0px;
+	opacity: 0;
+	transition: 0.3s;
+}
+.dropdown ul a{
+	display: block;
+}
+.dropdown:hover ul{
+	display: block;
+	left: 0;
+	opacity: 1;
+	background-color: #262626;
+	font-size: 15px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+	transition: 0.3s;
+}
+.dropdown ul li{
+	float: none;
+	padding: 5px 0;
+}
+.content{
+	overflow: hidden;
+	color: #424c43;
+}
+.left_block{
+	float: left;
+	width: 210px;
+	background-color: #edeef0;
+	border-right: solid 1px #c7cacf;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.center_block{
+	float: left;
+	width: 580px;
+	background-color: #fff;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.right_block{
+	float: right;
+	width: 210px;
+	background-color: #edeef0;
+	border-left: solid 1px #c7cacf;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+h3{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 17px;
+}
+p{
+	padding: 3px 16px 0px 16px;
+	font-size: 15px;
+	line-height: 1.6;
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+	padding: 8px 0;
+	color: #fff;
+}
+footer span{
+	margin: auto;
+	display: block;
+	width: 1000px;
+}
